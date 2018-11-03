@@ -270,7 +270,7 @@ $(document).ready(function(){
         $('#js-action-overlay').fadeToggle(150);
     });
 	$('.js-action-main-btn').on('click', function(){
-        $('#js-action-main').fadeToggle(250);
+        $('#js-action-main').fadeToggle(250).toggleClass('open');
         $('#js-action-main-overlay').fadeToggle(250);
     });
     
