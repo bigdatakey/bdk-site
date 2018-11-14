@@ -11,6 +11,7 @@
     &.static,
     &.fix{
         transform: translateY(0);
+      .header-mob__logo img{max-width: unset;}
     }
     &__wrap{
         display: flex;
@@ -20,6 +21,7 @@
     &__logo{
         display: block;
         width: 14.9rem;
+      img{max-width: 10.2rem;}
     }
     &__bar-tel{
         font-size: 2.1rem;
@@ -52,7 +54,7 @@
         &__logo{
             width: 65px;
             height: 38px;
-            background: url(../img/logo2.png) center center no-repeat;
+            background: url(../img/logo-black.svg) center center no-repeat;
             background-size: contain;
             img{
                 display: none;
