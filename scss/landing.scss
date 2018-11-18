@@ -185,6 +185,17 @@
 		font-size: 1.4rem;
 		font-weight: 500;
 	}
+	&__lang{
+		text-align: right;
+		margin-bottom: .4rem;
+		font-size: 1.4rem;
+		font-weight: 500;
+		a{
+			color: #000;
+			opacity: .5;
+			&:hover,&.active{opacity: 1;}
+		}
+	}
 }
 
 .maine-sec{
@@ -1566,7 +1577,7 @@
     ul,p{margin: 2.6rem 0;}
     h2{
       font-size: 2.4rem;
-      font-weight: 900;
+      font-weight: bold;
       margin: 6.5rem 0 2.6rem 0;
     }
   }
@@ -2224,6 +2235,7 @@
         margin-bottom: 0;
         width: 10rem;
     }
+	.footer__lang{text-align: center; margin-bottom: 14px;}
     .sec{
         padding: 5rem 0;
         &__title{margin-bottom: 3rem;}
@@ -2934,8 +2946,7 @@
     .advantages{padding-bottom: 2rem;}
     .team__slide-quote{opacity: .5;}
   
-    .words{display: none;}
-	.about{margin: 5rem 0;}
+    //.words{display: none;}
 	.lang-mob{
 		display: block;
 		position: absolute;
@@ -2951,6 +2962,13 @@
 			&.active{color: $green;}
 		}
 	}
+	.about{
+	  margin: 5rem 0;
+	  &__article{
+		font-size: 1.6rem;
+	  }
+	}
+	.word--35,.word--46,.word--23,.word--45,.word--33,.word--7,.word--9,.word--40,.word--5,.word--23,.word--26,.word--33,.word--40,.word--44,.word--32,.word--37{display: none;}
 }
 
 
