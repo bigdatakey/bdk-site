@@ -273,6 +273,95 @@ $(document).ready(function(){
         $('#js-action-main').fadeToggle(250).toggleClass('open');
         $('#js-action-main-overlay').fadeToggle(250);
     });
+  
+    /*words*/
+    var words = [
+      "Создание сайтов",
+      "Поддержка сайтов",
+      "Большие данные",
+      "Искусственный интеллект",
+      "Машинное обучение",
+      "Контекстная реклама",
+      "Яндекс.Директ",
+      "Google Ads",
+      "Эффективность бизнеса",
+      "Комплексное воздействие",
+      "Автоматизация и оптимизация",
+      "Анализ и маркетинг",
+      "Ваш ключ к будущему",
+      "Собственная CMS с IP-телефонией",
+      "Технологическое превосходство",
+      "На шаг впереди конкурентов",
+      "Совместный успех",
+      "Технологический прогресс",
+      "Вовлечённость",
+      "Уверенность",
+      "Убеждённость",
+      "Сила",
+      "Миссия",
+      "Ценности",
+      "Веб-разработка",
+      "Повышение продаж",
+      "Точка старта",
+      "Новый этап",
+      "Оригинальные решения",
+      "Интеллектуальные системы",
+      "Точность",
+      "Прорывные идеи",
+      "Синергетический эффект",
+      "Радикально лучше",
+      "Преодоление границ",
+      "Смелость",
+      "Упорство",
+      "Перспективы",
+      "Эффективность",
+      "Оригинальность",
+      "Исследования",
+      "Команда",
+      "Профессионализм",
+      "Ответственность",
+      "Достижение целей"
+    ];
+    var delais = [0, 200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600, 3800, 4000, 4200, 4400, 4600, 4800, 5000, 5200, 5400, 5600, 5800, 6000];
+    function randomWord(){
+      var rand = Math.floor(Math.random() * words.length);
+      return words[rand];
+    }
+    function randomDelay(){
+      var rand = Math.floor(Math.random() * delais.length);
+      return delais[rand];
+    }
+	function typing(wordContainer){
+      var current = 0;
+      var word = randomWord();
+      var intervalID = setInterval(function(){            
+            var lastLetters = wordContainer.html();
+            wordContainer.html(lastLetters + word.charAt(current));
+            current++;
+            if((current) >= word.length){
+              clearInterval(intervalID);
+              setTimeout(function(){                
+                current = 0;
+                wordContainer.html('');
+                return typing(wordContainer);
+              }, 2000) 
+            }
+      }, 200);
+    }
+    function wordsAria(){
+      var wordsContainers = $('.js-word');
+
+      for (var i = 0; i < wordsContainers.length; i++) {
+            function start(elem){
+              setTimeout(function(){
+                  typing(elem);
+                }, randomDelay())
+            };
+            start(wordsContainers.eq(i));
+      }
+
+    }
+    wordsAria();
     
 });
 function leftFract(){
