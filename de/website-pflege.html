@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="Ru-ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Big Data Key</title>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/style.css"/>    
+    
+<!--
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+-->
+    
+    <meta name="description" content="Описание">
+    <meta name="keywords" content="Ключевые слова через запятую" />
+
+<!--
+    <link rel="image_src" href="/img/og.jpg" />  
+    
+    <meta property="og:type" content="website / movie / book / blog / etc" />
+    <meta property="og:url" content="http://site.ru" />
+    
+    <meta property="og:image" content="http://site.ru/img/og/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="968">
+    <meta property="og:image:height" content="504">
+    
+    <meta property="og:title" content="Заголовок для соцсети (ограничение в 65 символов)" />
+    <meta property="og:description" content="Описание для соцсети" />
+    <meta property="og:video" content="http://site.ru" />
+    <meta property="og:locale" content="ru_RU / en_GB / de_DE / etc." />
+    <meta property="og:site_name" content="site.ru" />
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="site.ru"/>
+    <meta name="twitter:title" content="Заголовок">
+    <meta name="twitter:description" content="Описание"/>
+    <meta name="twitter:creator" content="Автор"/>
+    <meta name="twitter:image:src" content="https://site.com/img/twitter.png"/>
+    <meta name="twitter:domain" content="http://site.ru"/>
+-->
+
+	<meta name="theme-color" content="#8753fc">
+	<meta name="msapplication-navbutton-color" content="#8753fc">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#8753fc">
+</head>
+<body class="set-1">
+    <!--[if lt IE 8]>
+        <p class="browserhappy">
+            Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="https://browsehappy.com/"  target="_blank">обновите</a>.
+        </p>
+    <![endif]-->
+	<div class="wrapper">
+        <header class="header" id="js-header">
+            <div class="container">
+                <div class="header__wrap">
+                    <a href="/" class="header__logo"><img src="img/big_data_key.svg" alt="Big Data Key"></a>
+                    <nav class="main-menu">
+                        <ul>
+                            <li>
+                            	<div class="active">Websites</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="website-entwicklung">Website-Entwicklung</a></li>
+										<li><a href="website-pflege" class="active">Website-Pflege</a></li>
+									</ul>
+                            	</div>
+                            </li>
+                            <li><a href="werbung">Werbung</a></li>
+                            <li>
+                            	<div>Geschäft</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="big-data">Big Data</a></li>
+                            			<li><a href="crm">BDK CRM</a></li>
+									</ul>
+                            	</div>
+                            </li>                            
+                            <li>
+                            	<div>Unternehmen</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="presse">Presse über uns</a></li>
+                            			<li><a href="über">Über die Firma</a></li>
+									</ul>
+                            	</div>
+                            </li>
+                            <li><a href="kontakte">Kontakte</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__bar-wrap">
+						<div class="header__bar">
+							<a href="tel:+74996488099" class="header__bar-tel">+7 (499) 648-80-99</a>
+							<button class="btn btn--blue header__bar-btn js-order-btn"><span>Anruf bestellen</span></button>
+							<button class="btn mob-menu-btn js-mob-menu-btn"><span></span>
+							<span></span>
+							<span></span></button>
+						</div>
+                   		<div class="header__tab-lang main-menu">
+                   			<ul>
+								<li>
+									<div>DE</div>
+									<div class="main-menu__sub">
+										<ul>
+											<li><a href="http://bigdatak.com/podderjka-saitov">RU</a></li>
+											<li><a href="http://bigdatak.com/en/website-support">EN</a></li>
+                                            <li><a class="active" href="http://bigdatak.com/de/website-pflege">DE</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+                   		</div>
+                    </div>
+                </div>
+                <div class="header__desc-lang">
+                  <a href="http://bigdatak.com/podderjka-saitov">RU</a>
+                  <a href="http://bigdatak.com/en/website-support">EN</a>
+                  <a class="active" href="http://bigdatak.com/de/website-pflege">DE</a>
+                </div>
+            </div>
+        </header>
+        <header class="header-mob" id="js-header-mob">
+            <div class="container">
+                <div class="header__wrap">
+                    <a href="/" class="header-mob__logo"><img src="img/logo1.svg" alt="Big Data Key"></a>
+                    <nav class="main-menu" id="js-mob-menu">
+                        <ul>
+                            <li>
+                            	<div class="active">Websites</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="website-entwicklung">Website-Entwicklung</a></li>
+										<li><a href="website-pflege" class="active">Website-Pflege</a></li>
+									</ul>
+                            	</div>
+                            </li>
+                            <li><a href="werbung">Werbung</a></li>
+                            <li>
+                            	<div>Geschäft</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="big-data">Big Data</a></li>
+                            			<li><a href="crm">BDK CRM</a></li>
+									</ul>
+                            	</div>
+                            </li>                            
+                            <li>
+                            	<div>Unternehmen</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="presse">Presse über uns</a></li>
+                            			<li><a href="über">Über die Firma</a></li>
+									</ul>
+                            	</div>
+                            </li>
+                            <li><a href="kontakte">Kontakte</a></li>
+                        </ul>
+                        <div class="lang-mob">							
+							<a href="http://bigdatak.com/podderjka-saitov">RU</a>
+							<a href="http://bigdatak.com/en/website-support">EN</a>
+                            <a class="active" href="http://bigdatak.com/de/website-pflege">DE</a>
+						</div>
+                    </nav>
+                    <div class="header-mob__bar">
+                        <a href="tel:+74996488099" class="header-mob__bar-tel">+7 (499) 648-80-99</a>
+                        <button class="btn mob-menu-btn js-mob-menu-btn"><span></span>
+                        <span></span>
+                        <span></span></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+                <section class="support-main">      
+                    <div class="container">
+                        <div class="support-main__wrap">
+                            <div class="support-main__middle">
+                                <h1 class="support-main__title">Website-Pflege von Big Data Key</h1>
+                            </div>
+                            <div class="support-main__icns">
+                            	<div class="support-main__icn">
+                            		<div class="support-main__icn-img"><img src="img/support/icn-1.svg" alt="" style="width: 6.2rem;"></div>
+                            		<div class="support-main__icn-txt">Ihre Website ist immer verfügbar, wird regelmäßig auf Viren überprüft und archiviert.</div>
+                            	</div>
+                            	<div class="support-main__icn">
+                            		<div class="support-main__icn-img"><img src="img/support/icn-2.svg" alt="" style="width: 6rem;"></div>
+                            		<div class="support-main__icn-txt">Egal welche Fragen anläßlich der Webseite Sie haben, es gibt immer Fachleute, die bereit sind, Ihnen zu beraten.</div>
+                            	</div>
+                            	<div class="support-main__icn">
+                            		<div class="support-main__icn-img"><img src="img/support/icn-3.svg" alt="" style="width: 6.7rem;"></div>
+                            		<div class="support-main__icn-txt">Wir nehmen alle erforderlichen Änderungen und Verbesserungen an der Website schnell vor.</div>
+                            	</div>
+                            	<div class="support-main__icn">
+                            		<div class="support-main__icn-img"><img src="img/support/icn-4.svg" alt="" style="width: 6.3rem;"></div>
+                            		<div class="support-main__icn-txt">Von uns bekommen Sie regelmäßige Empfehlungen betreffend die Förderung und die Verbesserung der Webseite.</div>
+                            	</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="support-tarif">
+                	<div class="container">
+                        <h2 class="sec__title">Tarife und Kosten</h2>
+                        <div class="support-tarif__wrap">
+                        	<div class="support-tarif__item">
+                        		<h3 class="support-tarif__title">Minimal</h3>
+                        		<p>Anzahl der Stunden: 6</p>
+                        		<p>Kosten pro Stunde: <b>35 €</b></p>
+                        		<p>Reaktionszeit: ab zu 4 Stunden</p>
+                        		<p>Gleichzeitig ausführende Aufgaben: 1</p>
+                        		<p>Kosten pro Stunde über dem Limit: 50 €</p>
+                        		<div class="support-tarif__price">230 €/month</div>
+                        		<button class="btn js-order-btn support-tarif__btn support-tarif__btn--blue" data-name="Bestellen «Minimal»">Bestellen «Minimal»</button>
+                        	</div>
+                        	<div class="support-tarif__item">
+                        		<h3 class="support-tarif__title">Basis</h3>
+                        		<p>Anzahl der Stunden: 15</p>
+                        		<p>Kosten pro Stunde: <b>30 €</b></p>
+                        		<p>Reaktionszeit: ab zu 3 Stunden</p>
+                        		<p>Gleichzeitig ausführende Aufgaben: 2</p>
+                        		<p>Kosten pro Stunde über dem Limit: 45 €</p>
+                        		<div class="support-tarif__price">500 €/month</div>
+                        		<button class="btn js-order-btn support-tarif__btn support-tarif__btn--green" data-name="Bestellen «Basis»">Bestellen «Basis»</button>
+                        	</div>
+                        	<div class="support-tarif__item">
+                        		<h3 class="support-tarif__title">Premium</h3>
+                        		<p>Anzahl der Stunden: 30</p>
+                        		<p>Kosten pro Stunde: <b>25 €</b></p>
+                        		<p>Reaktionszeit: ab zu 2 Stunden</p>
+                        		<p>Gleichzeitig ausführende Aufgaben: ∞</p>
+                        		<p>Kosten pro Stunde über dem Limit: 40 €</p>
+                        		<div class="support-tarif__price">770 €/month</div>
+                        		<button class="btn js-order-btn support-tarif__btn support-tarif__btn--black" data-name="Bestellen «Premium»">Bestellen «Premium»</button>
+                        	</div>
+						</div>
+					</div>
+				</section>
+                <section class="support-list">
+                	<div class="container">
+                        <h2 class="sec__title support-list__title">Welche Aufgaben sind in der Pflege umgriffen</h2>
+                        <ul class="support-list__wrap">
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-1.png" alt="" class="support-list__img">
+                        		<div>Gestaltung von neuen Seiten und Elementen</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-2.png" alt="" class="support-list__img">
+                        		<div>Schriftsetzung und Programmieren</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-3.png" alt="" class="support-list__img">
+                        		<div>Content schaffen und hinzufügen</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-4.png" alt="" class="support-list__img">
+                        		<div>Beratung von der Kunde bei der Arbeit der Webseite</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-5.png" alt="" class="support-list__img">
+                        		<div>Zusammenwirken mit dem Hosting-Provider</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-6.png" alt="" class="support-list__img">
+                        		<div>Reservekopieren von der Webseite</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-7.png" alt="" class="support-list__img">
+                        		<div>Überwachung der Arbeitsfähigkeit der Webseite</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-8.png" alt="" class="support-list__img">
+                        		<div>Einrichten von dem PostdienstEinrichten von dem Postdienst</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-9.png" alt="" class="support-list__img">
+                        		<div>Eliminierung von der Fehler und technischen Störfällen</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-10.png" alt="" class="support-list__img">
+                        		<div>Entfernung von Viren und Schadkode</div>
+                        	</li>
+                        	<li class="support-list__item">
+                        		<img src="img/support/item-11.png" alt="" class="support-list__img">
+                        		<div>Vorschläge zur Verbesserung der Website</div>
+                        	</li>
+						</ul>
+					</div>
+				</section>
+                <section class="partner">
+                    <div class="container">
+                        <h2 class="sec__title partner__title">Warum wir?</h2>
+                        <div class="partner__wrap">
+                            <div class="partner__item">
+                                <div class="partner__item-pic"><img src="img/support/pic-1.jpg" alt=""></div>
+                                <div class="partner__item-title">Qualität und operatives Handeln</div>
+                                <div class="partner__item-txt">
+                                    <p>Für jede Aufgabe für die Site gibt es im Big Data Key einen geeigneten Spezialisten. Jedem unserer Kunden wird ein persönlicher Manager zugewiesen, der die Geschwindigkeit und Qualität der Arbeit überwacht.</p>
+                                </div>
+                            </div>
+                            <div class="partner__item">
+                                <div class="partner__item-pic"><img src="img/support/pic-2.jpg" alt=""></div>
+                                <div class="partner__item-title">Ganztägige Pflege</div>
+                                <div class="partner__item-txt">
+                                    <p>Wir wissen, wie wichtig reibungsloser Funktionsablauf von Websites ist. Es ist sowohl für die Bequemlichkeit der Benutzer, als auch für die gute Suchpositionen sehr bedeutend. Wir arbeiten ganztägig, jeden Tag und ohne Ruhetage.</p>
+                                    <p>Die Website unserer Kunde sind 24/7 unter Aufsicht unserer Experten.</p>
+                                </div>
+                            </div>
+                            <div class="partner__item">
+                                <div class="partner__item-pic"><img src="img/support/pic-3.jpg" alt=""></div>
+                                <div class="partner__item-title">Sicherheit und Verantwortlichkeit</div>
+                                <div class="partner__item-txt">
+                                    <p>Die genaue Planung und Verfügbarkeit der Personalreserve ermöglicht uns eine kontinuierliche und effektive Unterstützung. Ihre Website wird von einem ganzen Team von austauschbaren und gut ausgebildeten Fachleuten verwaltet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="support-crm">
+                	<div class="container">
+                        <h2 class="sec__title support-crm__title">Unterstützte Websites und CMS</h2>
+                        <div class="support-crm__desc">Der technische Kundendienst von Big Data Key führt egal wie komplizierte Aufgaben an den Webseiten durch. Wir arbeiten mit verschiedenen Plattformen und CMS: von HTML bis zu selbst geschriebenen CMS und Frameworks.</div>
+                        <div class="support-crm__wrap">
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-1.svg" alt=""></div>
+								<div class="support-crm__txt">1C Bitrix</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-2.svg" alt=""></div>
+								<div class="support-crm__txt">HTML5</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-3.svg" alt=""></div>
+								<div class="support-crm__txt">ModX</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-4.svg" alt=""></div>
+								<div class="support-crm__txt">WordPress</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-5.svg" alt=""></div>
+								<div class="support-crm__txt">Drupal</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-6.svg" alt=""></div>
+								<div class="support-crm__txt">Opencart</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-7.svg" alt=""></div>
+								<div class="support-crm__txt">yii</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-8.svg" alt=""></div>
+								<div class="support-crm__txt">Joomla</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-9.svg" alt=""></div>
+								<div class="support-crm__txt">CodeIgniter</div>
+							</div>
+							<div class="support-crm__item">
+								<div class="support-crm__pic"><img src="img/support/cms-10.svg" alt=""></div>
+								<div class="support-crm__txt">Und andere</div>
+							</div>
+						</div>
+					</div>
+                </section>
+                <section class="support-form">
+                    <div class="container">
+                        <h2 class="sec__title">Закажите поддержку вашего сайта</h2>
+                        <div class="main-form main-form--white">
+                            <form action="php/mail.php" method="post" class="main-form__form js-form-val" name="main_form" id="main-form">
+                                <div class="main-form__group">
+                                    <input type="hidden" name="project_name" value="BigDATAkey">
+                                    <input type="hidden" name="form_subject" value="BigDATAkey - новая заявка">
+                                    <input type="text" class="main-form__input js-val" name="name" placeholder="Name">
+                                    <input type="tel" class="main-form__input js-mask js-val" name="tel" placeholder="Telefonnummer">
+                                </div>
+                                <button class="btn btn--orange main-form__submit" type="submit">Anmelden</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+        </main>
+        <footer class="footer">
+        	<div class="container">
+        		<div class="footer__wrap">
+        			<nav class="footer__nav">
+        				<div class="footer__nav-col">
+        					<a href="website-entwicklung">Website-Entwicklung</a>
+        					<a href="website-pflege">Website-Pflege</a>
+        				</div>
+        				<div class="footer__nav-col">
+        					<a href="big-data">Big Data</a>
+        					<a href="crm">BDK CRM</a>
+        				</div>
+        				<div class="footer__nav-col">
+        					<a href="werbung">Werbung</a>
+        					<a href="presse">Presse über uns</a>
+        				</div>
+        				<div class="footer__nav-col">
+        					<a href="über">Über die Firma</a>
+        					<a href="kontakte">Kontakte</a>
+        				</div>
+        			</nav>
+        			<div>
+        				<div class="footer__lang">
+        					<a href="http://bigdatak.com/podderjka-saitov">RU</a>
+        					<a href="http://bigdatak.com/en/website-support">EN</a>
+                            <a href="http://bigdatak.com/de/website-pflege" class="active">DE</a>
+        				</div>
+        				<div class="footer__copyright">© Big Data Key 2018</div>
+					</div>
+        		</div>
+        	</div>
+        </footer>
+        <div class="popup" id="js-order-popup">
+            <div class="popup__overlay js-order-btn js-close"></div>
+            <div class="popup__main" id="js-order-main">
+                <button class="btn popup__close js-order-btn js-close" title="Закрыть">Закрыть</button>
+                <h2 class="popup__title">Anruf bestellen</h2>
+                <form action="php/mail.php" method="post" name="order" class="form popup__form js-form-val js-order">
+                    <input type="hidden" name="project_name" value="BigDATAkey">
+                    <input type="hidden" name="form_subject" value="BigDATAkey - новая заявка">
+                    <input type="text" name="name" class="input popup__input js-val" placeholder="Name">
+                    <input type="tel" name="tel" class="input popup__input js-mask js-val" placeholder="Telefonnummer">
+                    <button class="btn btn--red popup__submit" type="submit">Anmelden</button>
+                </form>
+            </div>
+        </div>
+        <div class="popup" id="js-popup-ready">
+            <div class="popup__overlay js-popup-ready-btn"></div>
+            <div class="popup__main" id="js-order-main">
+                <button class="btn popup__close js-popup-ready-btn" title="Закрыть">Закрыть</button>
+                <h2 class="popup__ready">Ваша заявка была <br>принята</h2>
+            </div>
+        </div>
+	</div>
+	<!--jQuery-->
+	<script src="js/vendors/jquery.min.js"></script>
+	<!--slick-->
+	<script src="js/vendors/slick.min.js"></script>
+	<!--maskedinput-->
+	<script src="js/vendors/jquery.maskedinput.min.js"></script>
+	<!--device-->
+	<script src="js/vendors/device.min.js"></script>
+	<!--init-->
+	<script src="js/jquery.init.js"></script>	
+	<!--my scripts-->
+	<script src="js/jquery.main.js"></script>
+    
+</body>
+</html>
