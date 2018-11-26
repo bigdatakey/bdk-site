@@ -11,6 +11,7 @@
     &.static,
     &.fix{
         transform: translateY(0);
+      .header-mob__logo{width: 14.9rem;}
       .header-mob__logo img{max-width: unset;}
     }
     &__wrap{
@@ -20,8 +21,9 @@
     }
     &__logo{
         display: block;
-        width: 14.9rem;
-      img{max-width: 10.2rem;}
+        width: 10.3rem;
+  		transition: none;  
+      img{max-width: 10.3rem;}
     }
     &__bar-tel{
         font-size: 2.1rem;

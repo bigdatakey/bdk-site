@@ -17,7 +17,7 @@ $(document).ready(function(){
 			$('#js-order-popup').find('input[name="form_subject"]').val(formName);
 		} else{
           if(!($(this).hasClass('js-close'))){
-			$('#js-order-popup').find('.popup__title').html('Заказать звонок');
+			$('#js-order-popup').find('.popup__title').html('Request a call');
 			$('#js-order-popup').find('input[name="form_subject"]').val('BigDATAkey - новая заявка');
           }
 		}
