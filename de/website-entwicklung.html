@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Big Data Key</title>
+    
+    <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="/css/style.css"/>    
+    
+
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    
+    <meta name="description" content="Описание">
+    <meta name="keywords" content="Ключевые слова через запятую" />
+
+<!--
+    <link rel="image_src" href="/img/og.jpg" />  
+    
+    <meta property="og:type" content="website / movie / book / blog / etc" />
+    <meta property="og:url" content="http://site.ru" />
+    
+    <meta property="og:image" content="http://site.ru/img/og/og.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="968">
+    <meta property="og:image:height" content="504">
+    
+    <meta property="og:title" content="Заголовок для соцсети (ограничение в 65 символов)" />
+    <meta property="og:description" content="Описание для соцсети" />
+    <meta property="og:video" content="http://site.ru" />
+    <meta property="og:locale" content="ru_RU / en_GB / de_DE / etc." />
+    <meta property="og:site_name" content="site.ru" />
+
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="site.ru"/>
+    <meta name="twitter:title" content="Заголовок">
+    <meta name="twitter:description" content="Описание"/>
+    <meta name="twitter:creator" content="Автор"/>
+    <meta name="twitter:image:src" content="https://site.com/img/twitter.png"/>
+    <meta name="twitter:domain" content="http://site.ru"/>
+-->
+
+	<meta name="theme-color" content="#8753fc">
+	<meta name="msapplication-navbutton-color" content="#8753fc">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#8753fc">
+</head>
+<body class="set-1">
+    <!--[if lt IE 8]>
+        <p class="browserhappy">
+            Ваш браузер <strong>устарел</strong>. Пожалуйста <a href="https://browsehappy.com/"  target="_blank">обновите</a>.
+        </p>
+    <![endif]-->
+	<div class="wrapper">
+        <header class="header" id="js-header">
+            <div class="container">
+                <div class="header__wrap">
+                    <a href="/de" class="header__logo"><img src="img/big_data_key.svg" alt="Big Data Key"></a>
+                    <nav class="main-menu">
+                        <ul>
+                            <li>
+                            	<div class="active">Websites</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="website-entwicklung" class="active">Website-Entwicklung</a></li>
+										<li><a href="website-pflege">Website-Pflege</a></li>
+									</ul>
+                            	</div>
+                            </li>
+                            <li><a href="werbung">Werbung</a></li>
+                            <li>
+                            	<div>Geschäft</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="big-data">Big Data</a></li>
+                            			<li><a href="crm">BDK CRM</a></li>
+									</ul>
+                            	</div>
+                            </li>                            
+                            <li>
+                            	<div>Unternehmen</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="presse">Presse über uns</a></li>
+                            			<li><a href="über">Über die Firma </a></li>
+									</ul>
+                            	</div>
+                            </li>
+                            <li><a href="kontakte">Kontakte</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__bar-wrap">
+						<div class="header__bar">
+							<a href="tel:+74996488099" class="header__bar-tel">+7 (499) 648-80-99</a>
+							<button class="btn btn--blue header__bar-btn js-order-btn"><span>Anruf bestellen</span></button>
+							<button class="btn mob-menu-btn js-mob-menu-btn"><span></span>
+							<span></span>
+							<span></span></button>
+						</div>
+                   		<div class="header__tab-lang main-menu">
+                   			<ul>
+								<li>
+									<div>DE</div>
+									<div class="main-menu__sub">
+										<ul>
+											<li><a href="http://bigdatak.com/razrabotka-saitov">RU</a></li>
+											<li><a href="http://bigdatak.com/en/website-development">EN</a></li>
+                                            <li><a class="active" href="http://bigdatak.com/de/website-entwicklung">DE</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+                   		</div>
+                    </div>
+                </div>
+                <div class="header__desc-lang">
+                  <a href="http://bigdatak.com/razrabotka-saitov">RU</a>
+                  <a href="http://bigdatak.com/en/website-development">EN</a>
+                  <a class="active" href="http://bigdatak.com/de/website-entwicklung">DE</a>
+                </div>
+            </div>
+        </header>
+        <header class="header-mob" id="js-header-mob">
+            <div class="container">
+                <div class="header__wrap">
+                    <a href="/de" class="header-mob__logo"><img src="img/logo1.svg" alt="Big Data Key"></a>
+                    <nav class="main-menu" id="js-mob-menu">
+                        <ul>
+                            <li>
+                            	<div class="active">Websites</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="website-entwicklung" class="active">Website-Entwicklung</a></li>
+										<li><a href="website-pflege">Website-Pflege</a></li>
+									</ul>
+                            	</div>
+                            </li>
+                            <li><a href="werbung">Werbung</a></li>
+                            <li>
+                            	<div>Geschäft</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="big-data">Big Data</a></li>
+                            			<li><a href="crm">BDK CRM</a></li>
+									</ul>
+                            	</div>
+                            </li>                            
+                            <li>
+                            	<div>Unternehmen</div>
+                            	<div class="main-menu__sub">
+									<ul>
+										<li><a href="presse">Presse über uns</a></li>
+                            			<li><a href="über">Über die Firma </a></li>
+									</ul>
+                            	</div>
+                            </li>
+                            <li><a href="kontakte">Kontakte</a></li>
+                        </ul>
+                        <div class="lang-mob">							
+							<a href="http://bigdatak.com/razrabotka-saitov">RU</a>
+							<a href="http://bigdatak.com/en/website-development">EN</a>
+                            <a class="active" href="http://bigdatak.com/de/website-entwicklung">DE</a>
+						</div>
+                    </nav>
+                    <div class="header-mob__bar">
+                        <a href="tel:+74996488099" class="header-mob__bar-tel">+7 (499) 648-80-99</a>
+                        <button class="btn mob-menu-btn js-mob-menu-btn"><span></span>
+                        <span></span>
+                        <span></span></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+                <section class="maine-sec" id="js-main-sec">
+                    <video class="maine-sec__video" muted="" autoplay="autoplay" loop="loop" preload="auto">               
+                        <source src="video/videobg.mp4" type='video/mp4'>
+                    </video>       
+                    <div class="container">
+                        <div class="maine-sec__wrap">
+                            <div class="maine-sec__middle">
+                                <h1 class="maine-sec__title">Websiten Erstellung <br>für erfolgreiches Unternehmen</h1>
+                                <button class="btn main-action-btn js-action-main-btn">Sonderangebot</button>
+                            </div>
+                            <div class="price">
+                                <div class="price__item">
+                                    <div class="price__item-icn price__item-icn--landing">
+                                        <img class="price__item-img" src="img/icn-1.svg" alt="">
+                                        <img class="price__item-img-hover" src="img/icn-1-h.svg" alt="">
+                                    </div>
+                                    <div class="price__item-name">Landeseite</div>
+                                    <div class="price__item-txt">Verkauf einer einseitigen Website. Wir konzentrieren uns auf ein Produkt oder eine Dienstleistung. Schnelles Ergebnis bei minimalen Kosten.</div>
+                                    <div class="price__item-price">von <strong>900 €</strong></div>
+                                    <buttom class="btn btn--red price__item-btn js-order-btn" data-name="Landeseite bestellen">Bestellen</buttom>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-icn price__item-icn--corporate">
+                                        <img class="price__item-img" src="img/icn-2.svg" alt="">
+                                        <img class="price__item-img-hover" src="img/icn-2-h.svg" alt="">
+                                    </div>
+                                    <div class="price__item-name">Unternehmenseite</div>
+                                    <div class="price__item-txt">Von Ihrer Firma erzählen. Ihre Vorteile und Stärken zeigen. Neue Kunde beibringen.</div>
+                                    <div class="price__item-price">von <strong>1 400 €</strong></div>
+                                    <buttom class="btn btn--red price__item-btn js-order-btn" data-name="Unternehmenseite bestellen">Bestellen</buttom>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-icn price__item-icn--store">
+                                        <img class="price__item-img" src="img/icn-3.svg" alt="">
+                                        <img class="price__item-img-hover" src="img/icn-3-h.svg" alt="">
+                                    </div>
+                                    <div class="price__item-name">Online Shop</div>
+                                    <div class="price__item-txt">Komfortable Katalog- und Produktsuche. Einfacher Kauf- und Zahlungsvorgang. Maximaler Verkauf</div>
+                                    <div class="price__item-price">von <strong>1 900 €</strong></div>
+                                    <buttom class="btn btn--red price__item-btn js-order-btn" data-name="Online Shop bestellen">Bestellen</buttom>
+                                </div>
+                                <div class="price__item">
+                                    <div class="price__item-icn price__item-icn--application">
+                                        <img class="price__item-img" src="img/icn-4.svg" alt="">
+                                        <img class="price__item-img-hover" src="img/icn-4-h.svg" alt="">
+                                    </div>
+                                    <div class="price__item-name">Kundenspezifische Lösungen</div>
+                                    <div class="price__item-txt">Hochgeladene Projekte. Big Data. Ungewöhnliche Funktionalität. Wir schaffen alles.</div>
+                                    <div class="price__item-price">von <strong>2 400 €</strong></div>
+                                    <buttom class="btn btn--red price__item-btn js-order-btn" data-name="Bestellen">Bestellen</buttom>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec advantages scroll-animate">
+                    <div class="gaph">
+                        <div class="gaph__inner">
+                            <div class="graph-line"></div>
+                            <div><span></span><span></span><span></span><span></span><span></span></div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <h2 class="sec__title advantages__title">Warum sind unsere Webseite ein neuer<br>Wachstumspunkt Ihres Unternehmens?</h2>
+                        <div class="advantages__wrap">
+                            <div class="advantages__item">
+                                <div class="advantages__item-icn"><img src="img/brain.svg" alt=""></div>
+                                <div class="advantages__item-title">Nicht nur machen wir Webseite</div>
+                                <div class="advantages__item-txt">Wir erforschen unsere Kunde und Konkurrenten. Ausgehend von der Umfeldanalyse schlagen wir eine optimale Lösung für Ihre Aufgaben vor. Die Funktionen und die Gestaltung von den Websiten unserer Kunden entsprechen immer den Anforderungen ihrer Geschäftsvorgänge.</div>
+                            </div>
+                            <div class="advantages__item">
+                                <div class="advantages__item-icn"><img src="img/devices.svg" alt=""></div>
+                                <div class="advantages__item-title">Unsere Webseite <br>arbeiten gut überall.</div>
+                                <div class="advantages__item-txt">Das Internet ist allumfassend geworden. Wir arbeiten die Schnittstellen für die populärste Geräte sorgfältig durch. Wir passen Ihre Website den Computer, Tablets und Smartphones an.</div>
+                            </div>
+                            <div class="advantages__item">
+                                <div class="advantages__item-icn"><img src="img/chip.svg" alt=""></div>
+                                <div class="advantages__item-title">Unsere Websites <br>sind für die Werbung optimiert.</div>
+                                <div class="advantages__item-txt">Die Architektur unserer Websites ist optimal für die SEO-Werbung. In voraus nehmen wir es in Betracht, welche Seiten in Kontextwerbung eingebunden werden. Mit uns wird Ihre Werbung effizienter und günstiger.</div>
+                            </div>
+                            <div class="advantages__item">
+                                <div class="advantages__item-icn"><img src="img/shield.svg" alt=""></div>
+                                <div class="advantages__item-title">Wir leisten eine Garantie für die Webseite</div>
+                                <div class="advantages__item-txt">Nach der Abgabe von Projekten verschwinden wir nicht. Falls nach dem Abschluss des Projektes während der Nutzung der Website irgendwelche Fehler aufgedeckt werden, korrigieren wir die kostenlos. Falls einige Verbesserungen erforderlich sind, machen wir die zu einem angemessenen Preis.</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="sec video">
+                        <h2 class="sec__title video__title">Ein Video über uns</h2>
+                        <div class="video__slider" id="js-video-slider">
+                            <div>
+                                <div class="video__slide">
+                                    <div class="video__container">
+                                        <div class="video__blind js-blind" data-href="https://www.youtube.com/embed/ub4dgd_Rtz8"><img src="img/video/4.jpg" alt=""></div>
+                                    </div>
+                                    <div class="video__name">Rückkopplung vom «NextWay» Unternehmen</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="video__slide">
+                                    <div class="video__container">
+                                        <div class="video__blind js-blind" data-href="https://www.youtube.com/embed/Fo6rCkFrpe8"><img src="img/video/1.jpg" alt=""></div>
+                                    </div>
+                                    <div class="video__name">Rückkopplung vom «Agrodochod» Unternehmen</div>
+                                </div>
+                            </div>                            
+                            <div>
+                                <div class="video__slide">
+                                    <div class="video__container">
+                                        <div class="video__blind js-blind" data-href="https://www.youtube.com/embed/-UcpQImGI7w"><img src="img/video/2.jpg" alt=""></div>
+                                    </div>
+                                    <div class="video__name">Über Big Data Key</div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="video__slide">
+                                    <div class="video__container">
+                                        <div class="video__blind js-blind" data-href="https://www.youtube.com/embed/TaJ9WORUuhI"><img src="img/video/3.jpg" alt=""></div>
+                                    </div>
+                                    <div class="video__name">Wie schaffen wir Webseite?</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="video-wrapper" id="js-video-vrapper">
+                            <div class="video-wrapper__overlay js-video-close"></div>
+                            <div class="video-wrapper__container">
+                                <button class="btn video-wrapper__close js-video-close" title="Schließen">Schließen</button>
+                                <div class="video-wrapper__blc" id="js-video-container">
+                                    <iframe frameborder="0" allowfullscreen=""></iframe>
+<!--                                    <iframe frameborder="0" allowfullscreen=""></iframe>-->
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <section class="sec portfolio">
+                    <div class="container">
+                        <h2 class="sec__title portfolio__title">Unsere Werke</h2>
+                        <div class="portfolio__slider js-portfolio-slider">
+                        	<div>
+                        		<div class="portfolio__slide clearfix">
+                        			<a href="http://gaz.bigdatak.com/" target="_blank" class="portfolio__blc portfolio__blc--05_1 portfolio__blc--left">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-1.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-1-h.jpg);"></div>
+                        			</a>
+                        			<a href="http://agrodohod.ru/" target="_blank" class="portfolio__blc portfolio__blc--05_05 portfolio__blc--right">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-2.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-2-h.jpg);"></div>
+                        			</a>
+                        			<a href="https://nextway.city/" target="_blank" class="portfolio__blc portfolio__blc--05_05 portfolio__blc--right">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-5.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-5-h.jpg);"></div>
+                        			</a>
+                        		</div>
+                        	</div>
+                        	<div>
+                        		<div class="portfolio__slide clearfix">
+                        			<a href="http://artinwood.ru/" target="_blank" class="portfolio__blc portfolio__blc--1_05">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-4.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-4-h.jpg);"></div>
+                        			</a>
+                        			<a href="http://lada.bigdatak.com/" target="_blank" class="portfolio__blc portfolio__blc--05_05 portfolio__blc--left">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-3.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-3-h.jpg);"></div>
+                        			</a>
+                        			<a href="http://candy.bigdatak.com/" target="_blank" class="portfolio__blc portfolio__blc--05_05 portfolio__blc--right">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-6.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-6-h.jpg);"></div>
+                        			</a>
+                        		</div>
+                        	</div>
+                        	<div>
+                        		<div class="portfolio__slide clearfix">
+                        			<a href="http://denta-maximum.ru/" target="_blank" class="portfolio__blc portfolio__blc--05_05 portfolio__blc--left">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-7.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-7-h.jpg);"></div>
+                        			</a>
+                        			<a href="http://xn--80aeciatk5akhebidek5p.xn--p1ai/" target="_blank" class="portfolio__blc portfolio__blc--05_1 portfolio__blc--right">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-9.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-9-h.jpg);"></div>
+                        			</a>
+                        			<button class="btn portfolio__blc portfolio__blc--05_05 portfolio__blc--left js-order-btn" data-name="Заказать сайт">
+                        				<div class="portfolio__blc-main" style="background-image: url(img/portfolio/i-8.jpg);"></div>
+                        				<div class="portfolio__blc-hover" style="background-image: url(img/portfolio/i-8-h.jpg);"></div>
+                        			</button>
+                        		</div>
+                        	</div>
+                        </div>
+                        <div class="portfolio__mob-slider js-portfolio-slider">
+                        	<div><a href="http://agrodohod.ru/" target="_blank" class="portfolio__mob-slide"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/1.jpg);"></div></a></div>
+                        	<div><a href="http://gaz.bigdatak.com/" target="_blank" class="portfolio__mob-slide"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/2.jpg);"></div></a></div>
+                        	<div><a href="https://nextway.city/" target="_blank" class="portfolio__mob-slide"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/5.jpg);"></div></a></div>
+                        	<div><a href="http://artinwood.ru/" target="_blank" class="portfolio__mob-slide"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/4.jpg);"></div></a></div>
+                        	<div><a href="http://lada.bigdatak.com/" target="_blank" class="portfolio__mob-slide"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/3.jpg);"></div></a></div>
+                        	<div><a href="http://candy.bigdatak.com/" target="_blank" class="portfolio__mob-slide"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/6.jpg);"></div></a></div>
+                        	<div><a href="http://xn--80aeciatk5akhebidek5p.xn--p1ai/" target="_blank" class="portfolio__mob-slide"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/7.jpg);"></div></a></div>
+                        	<div><a href="http://denta-maximum.ru/" target="_blank" class="portfolio__mob-slide"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/8.jpg);"></div></a></div>
+                        	<div><button class="btn portfolio__mob-slide js-order-btn" data-name="Заказать сайт"><div class="portfolio__mob-blc" style="background-image: url(img/portfolio/9.jpg);"></div></button></div>
+						</div>
+                    </div>
+                </section>
+                <section class="sec shem">
+                    <div class="container">
+                        <h2 class="sec__title shem__title">8 Schritte zum Erfolg mit Big Data Key</h2>
+                    </div>
+                    <div class="shem__wrap">
+                        <div class="shem__blc">
+                        	<div class="shem__blc-left">
+                        		<div class="shem__txt shem__txt--bottom shem__txt--1">
+                        			<div class="shem__txt-icn"><img src="img/web/phone-call.svg" alt=""></div>
+                        			<b>Anmeldung</b>
+                        			<span>Tag 1</span>
+                        		</div>
+                        		<div class="shem__txt shem__txt--top shem__txt--2">
+                        			<div class="shem__txt-icn"><img src="img/web/hand-shake.svg" alt=""></div>
+                        			<b>Treffen und <br>Ausfüllen <br>eines Briefes</b>
+                        			<span>Tag 2</span>
+                        		</div>
+                        		<div class="shem__txt shem__txt--bottom shem__txt--3">
+                        			<div class="shem__txt-icn"><img src="img/web/browser.svg" alt=""></div>
+                        			<b>Entwicklung eines <br>Prototyps und <br>einer Konzeption</b>
+                        			<span>Tag 8</span>
+                        		</div>
+                        		<div class="shem__txt shem__txt--top shem__txt--4">
+                        			<div class="shem__txt-icn"><img src="img/web/computer-graphic.svg" alt=""></div>
+                        			<b>Gestaltung <br>von der Webseite</b>
+                        			<span>Tag 15</span>
+                        		</div>
+                        		<div class="shem__txt shem__txt--bottom shem__txt--5">
+                        			<div class="shem__txt-icn"><img src="img/web/design.svg" alt=""></div>
+                        			<b>Schriftsetzung</b>
+                        			<span>Tag 20</span>
+                        		</div>
+                        		<div class="shem__txt shem__txt--top shem__txt--6">
+                        			<div class="shem__txt-icn"><img src="img/web/coding.svg" alt=""></div>
+                        			<b>Programmieren</b>
+                        			<span>Tag 27</span>
+                        		</div>
+                        	</div>
+                        	<div class="shem__blc-right">
+                        		<img class="shem__blc-bg" src="img/web/circle.png" alt="">
+                        		<div class="shem__txt shem__txt--bottom shem__txt--7">
+                        			<b>Prüfen und <br>Ausprüfen</b>
+                        			<span>Tag 30</span>
+                        		</div>
+                        		<div class="shem__txt shem__txt--top shem__txt--8">
+                        			<b>Projekt <br>abgaben</b>
+                        			<span>Tag 31</span>
+                        		</div>
+                        		<div class="shem__arrow">
+                        			<img src="img/web/arrow-up.png" alt="">
+                        		</div>
+                        		<div class="shem__orange">Wachstumspunkt <br>Ihres Unternehmens</div>
+                        	</div>
+                        	
+                        </div>
+                    </div>
+                </section>
+                <section class="sec team">
+                    <div class="container">
+                        <h2 class="sec__title team__title">Webentwicklungsteam</h2>
+                        <div class="team__slider" id="js-team-slider">
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/ava_8.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Andrey</div>
+                                        <div class="team__slide-status">Technischer Direktor</div>
+                                        <blockquote class="team__slide-quote">«Wenn man ernst und lernbereit ist, werden wir seine Entwicklung stark fördern»</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/ava_5.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Catherine</div>
+                                        <div class="team__slide-status">Art Direktor</div>
+                                        <blockquote class="team__slide-quote">«Ob Sie es gut machen wollen, machen Sie es selbst»</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/ava_2.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Bogdan</div>
+                                        <div class="team__slide-status">Projektleiter</div>
+                                        <blockquote class="team__slide-quote">«Ich leite Projekte nach den Prinzipien von Niccolò Machiavelli»</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/Ekaterina.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Catherine</div>
+                                        <div class="team__slide-status">Projektleiter</div>
+                                        <blockquote class="team__slide-quote">«Beim Start eines Projekts muss der Manager verstehen, welches Ergebnis er am Ende erzielen möchte»</blockquote>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/Olga.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Ольга</div>
+                                        <div class="team__slide-status">Projektleiter</div>
+                                        <blockquote class="team__slide-quote">«Um Projekte gut zu managen, müssen Sie lernen, Ihre Gedanken verwalten zu können»</blockquote>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/ava_1.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Alexey</div>
+                                        <div class="team__slide-status">Designer</div>
+                                        <blockquote class="team__slide-quote">«Ein gutes Design ist eine erfolgreiche Kombination von Ästhetik und Ergonomie»</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/ava_3.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Vitaliy</div>
+                                        <div class="team__slide-status">Backend-Entwickler</div>
+                                        <blockquote class="team__slide-quote">«Schreiben Sie den Code uneigennützig. Man zählt mehr dafür»</blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/Vlad.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Vlad</div>
+                                        <div class="team__slide-status">Backend-Entwickler</div>
+                                        <blockquote class="team__slide-quote">«Das beste Programm wird im Kopf erstellt und die Programmierung selbst ist bereits eine sekundäre Aufgabe»</blockquote>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/Darya.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Daria</div>
+                                        <div class="team__slide-status">Frontend-Entwickler</div>
+                                        <blockquote class="team__slide-quote">«Die Webseite muss sich immer gut aussehen. In allen Browsern, auf allen Geräten»</blockquote>
+                                    </div>
+                                </div>
+                            </div>                            
+                            <div>
+                                <div class="team__slide">
+                                    <div class="team__slide-photo">
+                                        <img src="img/ava_7.jpg" alt="">
+                                    </div>
+                                    <div class="team__slide-main">
+                                        <div class="team__slide-name">Juriy</div>
+                                        <div class="team__slide-status">Frontend-Entwickler</div>
+                                        <blockquote class="team__slide-quote">«Der Webentwicklungsprozess ist vielfältig und hat eine kreative Basis. Keiner ihrer Wege ist kanonisch»</blockquote>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>                        
+                    </div>
+                </section>
+                <section class="sec web-form">
+					<div class="container">
+						<h2 class="sec__title key__title">Bestellen Sie Ihre einzigartige Website</h2>
+						<div class="main-form main-form--white">
+							<form action="php/mail.php" method="post" class="main-form__form js-form-val" name="main_form" id="main-form">
+								<div class="main-form__group">
+									<input type="hidden" name="project_name" value="BigDATAkey">
+									<input type="hidden" name="form_subject" value="BigDATAkey - новая заявка">
+									<input type="text" class="main-form__input js-val" name="name" placeholder="Name">
+									<input type="tel" class="main-form__input js-mask js-val" name="tel" placeholder="Telefonnummer">
+								</div>
+								<button class="btn btn--orange main-form__submit" type="submit">Anmelden</button>
+							</form>
+						</div>
+					</div>
+				</section>
+        </main>
+        <footer class="footer">
+        	<div class="container">
+        		<div class="footer__wrap">
+        			<nav class="footer__nav">
+        				<div class="footer__nav-col">
+        					<a href="website-entwicklung">Website-Entwicklung</a>
+        					<a href="website-pflege">Website-Pflege</a>
+        				</div>
+        				<div class="footer__nav-col">
+        					<a href="big-data">Big Data</a>
+        					<a href="crm">BDK CRM</a>
+        				</div>
+        				<div class="footer__nav-col">
+        					<a href="werbung">Werbung</a>
+        					<a href="presse">Presse über uns</a>
+        				</div>
+        				<div class="footer__nav-col">
+        					<a href="über">Über die Firma</a>
+        					<a href="kontakte">Kontakte</a>
+        				</div>
+        			</nav>
+        			<div>
+        				<div class="footer__lang">
+        					<a href="http://bigdatak.com/razrabotka-saitov">RU</a>
+        					<a href="http://bigdatak.com/en/website-development">EN</a>
+                            <a href="http://bigdatak.com/de/website-entwicklung" class="active">DE</a>
+        				</div>
+        				<div class="footer__copyright">© Big Data Key 2018</div>
+					</div>
+        		</div>
+        	</div>
+        </footer>
+        <div class="popup" id="js-order-popup">
+            <div class="popup__overlay js-order-btn js-close"></div>
+            <div class="popup__main" id="js-order-main">
+                <button class="btn popup__close js-order-btn js-close" title="Schließen">Schließen</button>
+                <h2 class="popup__title">Anruf bestellen</h2>
+                <form action="php/mail.php" method="post" name="order" class="form popup__form js-form-val js-order">
+                    <input type="hidden" name="project_name" value="BigDATAkey">
+                    <input type="hidden" name="form_subject" value="BigDATAkey - новая заявка">
+                    <input type="text" name="name" class="input popup__input js-val" placeholder="Name">
+                    <input type="tel" name="tel" class="input popup__input js-mask js-val" placeholder="Telefonnummer">
+                    <button class="btn btn--red popup__submit" type="submit">Anmelden</button>
+                </form>
+            </div>
+        </div>
+        <div class="popup" id="js-popup-ready">
+            <div class="popup__overlay js-popup-ready-btn"></div>
+            <div class="popup__main" id="js-order-main">
+                <button class="btn popup__close js-popup-ready-btn" title="Schließen">Schließen</button>
+                <h2 class="popup__ready">Ihre Anmeldung war erfolgreich</h2>
+            </div>
+        </div>
+        <button class="btn action-btn js-action-btn" id="js-action-btn"><span>Sonderangebot</span></button>
+        <div class="action" id="js-action">
+            <button class="btn action__close js-action-btn" title="Schließen">Schließen</button>
+<!--
+            <button class="btn action__open js-action-btn">
+                Сэкономь 10 000 ₽ <br>на рекламе
+                <span class="action__anim"></span>
+            </button>
+-->
+            <h2 class="action__title">Sonderangebot</h2>
+            <div class="action__txt">
+				<p>Bestellen Sie eine Website bei uns und bekommen Sie einen semantischen Kern und einen Monat dauernde Führung von der Kontextwerbung kostenlos</p>
+				<p>Wollen Sie? Rufen Sie diese Telefonnummen an <br>
+				<a href="tel:+74996488099 ">+7 (499) 648-80-99</a><br>
+				und sagen Sie die Phrase «Sonderangebot» <br>
+				Oder melden Sie sich über das unten stehende Formular an:</p>                
+            </div>
+            <form action="php/mail.php" method="post" name="order" class="form popup__form js-form-val js-order">
+                <input type="hidden" name="project_name" value="BigDATAkey">
+                <input type="hidden" name="form_subject" value="Акция!">
+                <input type="text" name="name" class="input popup__input js-val" placeholder="Name">
+                <input type="tel" name="tel" class="input popup__input js-mask js-val" placeholder="Telefonnummer">
+                <button class="btn btn--black popup__submit" type="submit">Anmelden</button>
+            </form>            
+        </div>
+        <div class="action__overlay js-action-btn" id="js-action-overlay"></div>
+        <div class="action action--main" id="js-action-main">
+            <button class="btn action__close js-action-main-btn" title="Schließen">Schließen</button>
+<!--
+            <button class="btn action__open js-action-btn">
+                Сэкономь 10 000 ₽ <br>на рекламе
+                <span class="action__anim"></span>
+            </button>
+-->
+            <h2 class="action__title">Sonderangebot</h2>
+            <div class="action__txt">
+				<p>Bestellen Sie eine Website bei uns und bekommen Sie einen semantischen Kern und einen Monat dauernde Führung von der Kontextwerbung kostenlos.</p>
+				<p>Wollen Sie? Rufen Sie diese Telefonnummen an <br>
+				<a href="tel:+74996488099 ">+7 (499) 648-80-99</a><br>
+				und sagen Sie die Phrase «Sonderangebot» <br>
+				Oder melden Sie sich über das unten stehende Formular an:</p>                
+            </div>
+            <form action="php/mail.php" method="post" name="order" class="form popup__form js-form-val js-order">
+                <input type="hidden" name="project_name" value="BigDATAkey">
+                <input type="hidden" name="form_subject" value="Акция!">
+                <input type="text" name="name" class="input popup__input js-val" placeholder="Name">
+                <input type="tel" name="tel" class="input popup__input js-mask js-val" placeholder="Telefonnummer">
+                <button class="btn btn--black popup__submit" type="submit">Anmelden</button>
+            </form>            
+        </div>
+        <div class="action__overlay js-action-main-btn" id="js-action-main-overlay"></div>
+        
+	</div>
+	<!--jQuery-->
+	<script src="js/vendors/jquery.min.js"></script>
+	<!--slick-->
+	<script src="js/vendors/slick.min.js"></script>
+	<!--maskedinput-->
+	<script src="js/vendors/jquery.maskedinput.min.js"></script>
+	<!--device-->
+	<script src="js/vendors/device.min.js"></script>
+	<!--init-->
+	<script src="js/jquery.init.js"></script>	
+	<!--my scripts-->
+	<script src="js/jquery.main.js"></script>
+</body>
+</html>
