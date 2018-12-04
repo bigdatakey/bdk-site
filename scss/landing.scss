@@ -811,6 +811,9 @@
 		justify-content: flex-end;
     }
 	&__blc{
+		margin: 0 auto;
+		right: -7rem;
+		position: relative;
 		width: 100%;
 		max-width: 159rem;
 		display: flex;
@@ -2149,6 +2152,7 @@
   //background-color: rgba(0, 0, 0, 0.1);
 }
 
+
 @media only screen and (max-width : 1730px){
     .advantages{
         &__wrap{max-width: 100rem;}
@@ -2165,6 +2169,11 @@
             transform: scale(.7);
         }
     }
+	.shem__blc{
+		margin: 0;
+		right: 0;
+		position: relative;
+	}
 	.shem__wrap{margin-top: 0;}
 }
 @media only screen and (max-width : 1630px){
@@ -3304,6 +3313,9 @@
 	.shem__txt--6 b{font-size: 1.3rem;}
 	.shem__orange{font-size: 1.6rem;}
 }
+
+ .mob-br{display: none;}
+@media only screen and (max-width : 767px){ .mob-br{display: block;}}
 
 
 
