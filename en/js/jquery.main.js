@@ -78,7 +78,32 @@ $(document).ready(function(){
     					$('#js-action-main').fadeOut(250);
     					$('#js-action-main-overlay').fadeOut(250);
                         $('#js-popup-ready').fadeIn(250);
-                        function claseOk(){$('#js-popup-ready').fadeOut(250);}
+                        function claseOk(){
+							$('#js-popup-ready').fadeOut(250);
+							$('#js-action-main').fadeOut(250);
+							$('#js-action-main-overlay').fadeOut(250);
+							$('#js-action-overlay').fadeOut(250);
+							$('#js-action').removeClass('open');
+							$(window).unbind('scroll');
+							$(window).on('scroll', function(){         
+								 var headerHeight = $('#js-header').innerHeight(),
+									 windOffset = $(window).scrollTop();
+								 if(windOffset > (headerHeight + 20)){
+									 $('#js-header-mob').addClass('fix');
+								 } else{
+									 $('#js-header-mob').removeClass('fix');
+								 }
+							 });
+							$(window).on('scroll', function(){         
+								 var headerHeight = $('#js-main-sec').innerHeight(),
+									 windOffset = $(window).scrollTop();
+								 if(windOffset > (headerHeight)){
+									 $('#js-header-mob').addClass('fix');
+								 } else{
+									 $('#js-header-mob').removeClass('fix');
+								 }
+							 });
+						}
                         setTimeout(claseOk, 1000);
                     },
                 error: function() {
